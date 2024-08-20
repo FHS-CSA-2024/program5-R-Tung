@@ -25,14 +25,27 @@ public class Program5{
         pipeFrameAvg = (double)pipeFrameMiles / pipeFrameGallons;
         badWagonAvg = (double)badWagonMiles / badWagonGallons;
             
+   
+        
+        
         
         System.out.println("Mushroom Cup Prix Racer Average Miles/Per Gallon");
-        System.out.println("Royale averaged: " + (royaleAvg));
-        System.out.println("Koopa King averaged: " + koopaKingAvg);
-        System.out.println("Pipe Frame avereraged: " + pipeFrameAvg);
-        System.out.println("Badwagon averaged: " + badWagonAvg);
+        System.out.printf("Royale averaged: " + "%,.1f m/g %n", (royaleAvg));
+        System.out.printf("Koopa King averaged: " + "%,.1f m/g %n", (koopaKingAvg));
+        System.out.printf("Pipe Frame averaged: " + "%,.1f m/g %n", (pipeFrameAvg));
+        System.out.printf("Badwagon averaged: " + "%,.1f m/g %n", (badWagonAvg));
         
         
         
     }
 }
+//Paste console output below:
+/*
+
+Mushroom Cup Prix Racer Average Miles/Per Gallon
+Royale averaged: 31.8 m/g 
+Koopa King averaged: 10.3 m/g 
+Pipe Frame averaged: 20.1 m/g 
+Badwagon averaged: 14.6 m/g 
+
+*/
